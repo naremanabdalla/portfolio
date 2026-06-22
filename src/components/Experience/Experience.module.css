@@ -1,0 +1,61 @@
+.timeline {
+  position: relative;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--color-border);
+  list-style: none;
+}
+
+.item {
+  position: relative;
+  margin-bottom: 2.25rem;
+  padding-left: 1.25rem;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.dot {
+  position: absolute;
+  left: -1.8rem;
+  top: 0.35rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  border: 2px solid var(--color-bg);
+}
+
+.date {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--color-accent2);
+  letter-spacing: 0.5px;
+  margin-bottom: 0.3rem;
+}
+
+.role {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.company {
+  color: var(--color-muted);
+  font-size: 0.88rem;
+  margin-bottom: 0.75rem;
+}
+
+.bullets {
+  color: var(--color-muted);
+  font-size: 0.88rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  list-style: none;
+}
+
+.bullets li::before {
+  content: '→ ';
+  color: var(--color-accent2);
+}
