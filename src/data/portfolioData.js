@@ -121,8 +121,8 @@ export const projects = [
     description:
       "Full-stack booking platform with real-time venue search, Stripe payments, and multi-language support (i18n).",
     stack: ["Vue 3", "Vuex", "Firebase", "Node.js", "Stripe API", "Tailwind"],
-    github: "https://github.com/naremanabdalla",
-    demo: "https://github.com/naremanabdalla",
+    github: "https://github.com/HazemPhoenix/Reservio",
+    demo: "https://reservio-two.vercel.app/",
   },
   {
     icon: "📊",
@@ -131,7 +131,7 @@ export const projects = [
     description:
       "Admin monitoring tool with live user tracking, interactive charts, and Firebase Realtime Database integration.",
     stack: ["React", "Next.js", "Chart.js", "Firebase", "Tailwind"],
-    github: "https://github.com/naremanabdalla",
+    github: "https://github.com/naremanabdalla/mydashboard",
     demo: null,
   },
   {
@@ -141,8 +141,8 @@ export const projects = [
     description:
       "Full-stack e-commerce site with cart & wishlist via Context API, debounced search, and DummyJSON API integration.",
     stack: ["React", "Context API", "Firebase", "DummyJSON", "Tailwind"],
-    github: "https://github.com/naremanabdalla",
-    demo: "https://github.com/naremanabdalla",
+    github: "https://github.com/naremanabdalla/shop",
+    demo: "https://shopping022.netlify.app/",
   },
   {
     icon: "🏭",
@@ -151,7 +151,7 @@ export const projects = [
     description:
       "Production-ready WMS with reusable components, RESTful API integration, and optimized UI flow.",
     stack: ["React.js", "TypeScript", "Tailwind CSS", "RESTful APIs"],
-    github: "https://github.com/naremanabdalla",
+    github: null,
     demo: null,
   },
 ];
