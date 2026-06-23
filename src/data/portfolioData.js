@@ -116,7 +116,7 @@ export const experiences = [
 export const projects = [
   {
     icon: "🏛",
-    iconBg: "#1e1b33",
+    iconBg: "#1a1a1a",
     title: "Reservio – Venue Booking Platform",
     description:
       "Full-stack booking platform with real-time venue search, Stripe payments, and multi-language support (i18n).",
@@ -126,7 +126,7 @@ export const projects = [
   },
   {
     icon: "📊",
-    iconBg: "#0d2a2f",
+    iconBg: "#1a1a1a",
     title: "Dashboard – Real-Time Analytics",
     description:
       "Admin monitoring tool with live user tracking, interactive charts, and Firebase Realtime Database integration.",
@@ -136,7 +136,7 @@ export const projects = [
   },
   {
     icon: "🛒",
-    iconBg: "#0d2a1e",
+    iconBg: "#1a1a1a",
     title: "Shopping – E-Commerce Platform",
     description:
       "Full-stack e-commerce site with cart & wishlist via Context API, debounced search, and DummyJSON API integration.",
@@ -146,7 +146,7 @@ export const projects = [
   },
   {
     icon: "🏭",
-    iconBg: "#1e1b28",
+    iconBg: "#1a1a1a",
     title: "Warehouse Management System",
     description:
       "Production-ready WMS with reusable components, RESTful API integration, and optimized UI flow.",
@@ -154,4 +154,49 @@ export const projects = [
     github: null,
     demo: null,
   },
+  {
+    icon: "🌐",
+    iconBg: "#1a1a1a",
+  title: "Hepta",
+  description: "Responsive frontend project built during Career180 bootcamp.",
+  stack: ["HTML", "CSS", "JavaScript"],
+  github: "https://github.com/naremanabdalla/hepta",
+  demo: "https://heptaw.netlify.app/",
+},
+{
+    icon: "🛍",
+    iconBg: "#1a1a1a",
+  title: "Shop Item",
+  description: "E-commerce UI project with responsive design.",
+  stack: ["HTML", "CSS", "Bootstrap"],
+  github: "https://github.com/naremanabdalla/shop-item",
+  demo: "https://shopitemw.netlify.app/",
+},
+{
+    icon: "👗",
+    iconBg: "#1a1a1a",
+  title: "Zay",
+  description: "Fashion landing page with modern styling.",
+  stack: ["HTML", "Sass", "CSS"],
+  github: "https://github.com/naremanabdalla/zay",
+  demo: "https://zayw.netlify.app/",
+},
+{
+    icon: "📝",
+    iconBg: "#1a1a1a",
+  title: "Blog",
+  description: "Responsive blog layout built with Tailwind CSS.",
+  stack: ["HTML", "Tailwind CSS", "JavaScript"],
+  github: "https://github.com/naremanabdalla/blog",
+  demo: "https://blogbootstrap.netlify.app/",
+},
+{
+    icon: "🎲",
+    iconBg: "#1a1a1a",
+  title: "Shuffle",
+  description: "Interactive frontend project using vanilla JavaScript.",
+  stack: ["HTML", "CSS", "JavaScript"],
+  github: "https://github.com/naremanabdalla/shuffle",
+  demo: "https://shufflew.netlify.app/",
+},
 ];

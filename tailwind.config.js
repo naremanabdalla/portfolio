@@ -1,0 +1,81 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,jsx}",
+  ],
+  theme: {
+    colors: {
+      charcoal: '#121212',
+      card: '#1f1f24',
+      borderMuted: '#23272e',
+      teal: {
+        950: '#052f35',
+        700: '#0f766e',
+        500: '#2dd4bf',
+        300: '#5eead4',
+      },
+      sky: {
+        950: '#0f172a',
+        700: '#0c4a6e',
+        500: '#38bdf8',
+        300: '#7dd3fc',
+      },
+      coral: {
+        950: '#7c2d12',
+        600: '#ea580c',
+        500: '#fb923c',
+        300: '#fda4af',
+      },
+      green: {
+        950: '#052e16',
+        600: '#16a34a',
+        500: '#22c55e',
+        300: '#86efac',
+      },
+      offwhite: '#eef2f5',
+      muted: '#8b96a6',
+      success: '#22c55e',
+      white: '#ffffff',
+      transparent: 'transparent',
+    },
+    fontFamily: {
+      sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial'],
+    },
+    fontSize: {
+      xs: '0.75rem',
+      sm: '0.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+    },
+    spacing: {
+      0: '0',
+      1: '0.25rem',
+      1.5: '0.375rem',
+      2: '0.5rem',
+      2.5: '0.625rem',
+      3: '0.75rem',
+      4: '1rem',
+      5: '1.25rem',
+      6: '1.5rem',
+      8: '2rem',
+      12: '3rem',
+      16: '4rem',
+      20: '5rem',
+    },
+    borderRadius: {
+      0: '0',
+      sm: '6px',
+      md: '10px',
+      lg: '14px',
+      full: '9999px',
+    },
+  },
+  plugins: [],
+}
+

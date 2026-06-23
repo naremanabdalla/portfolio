@@ -1,6 +1,5 @@
 import { projects } from '../../data/portfolioData';
 import ProjectCard from './ProjectCard';
-import styles from './Projects.module.css';
 
 export default function Projects() {
   return (
@@ -8,7 +7,7 @@ export default function Projects() {
       <p className="section__label">Projects</p>
       <h2 className="section__title">Things I've built</h2>
 
-      <div className={styles.grid}>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {projects.map((project) => (
           <ProjectCard key={project.title} {...project} />
         ))}
