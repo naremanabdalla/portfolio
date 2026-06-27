@@ -25,7 +25,7 @@ export default function Hero() {
 
       <div className="flex gap-4 flex-wrap mt-2">
         <a href="#contact" className="px-6 py-3 bg-teal-500 text-charcoal rounded-sm text-[0.9rem] font-semibold transition-colors hover:bg-teal-600">Get in Touch</a>
-        <a href="#projects" className="px-6 py-3 bg-card text-offwhite border border-borderMuted rounded-sm text-[0.9rem] font-semibold transition-colors hover:border-sky-400 hover:text-sky-300">View Projects</a>
+        <a href="#projects" className="px-6 py-3 bg-card text-teal-500 border border-teal-500 rounded-sm text-[0.9rem] font-semibold transition-colors hover:bg-teal-500 hover:text-charcoal">View Projects</a>
       </div>
 
       <div className="flex gap-8 flex-wrap mt-2 pt-6 border-t border-borderMuted">

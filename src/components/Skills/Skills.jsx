@@ -4,10 +4,10 @@ import { skillCategories } from '../../data/portfolioData';
 const FILTERS = ['all', 'frontend', 'backend', 'tools'];
 
 const VARIANT_CLASSES = {
-  purple: 'bg-sky-950 text-sky-300 border border-sky-700',
-  teal: 'bg-teal-950 text-teal-300 border border-teal-700',
+  blue: 'bg-sky-950 text-sky-300 border border-sky-700',
   green: 'bg-green-950 text-green-300 border border-green-700',
-  amber: 'bg-coral-950 text-coral-300 border border-coral-700',
+  pink: 'bg-coral-950 text-coral-300 border border-coral-700',
+  gold: 'bg-teal-950 text-teal-300 border border-teal-700',
 };
 
 export default function Skills() {
@@ -32,7 +32,7 @@ export default function Skills() {
             className={`px-4 py-2 rounded-sm text-[0.83rem] transition-all border ${
               active === filter
                 ? 'bg-teal-500 border-teal-500 text-charcoal'
-                : 'bg-transparent border-borderMuted text-muted hover:border-sky-400 hover:text-sky-300'
+                : 'bg-card border-borderMuted text-muted hover:border-sky-500 hover:text-sky-300'
             }`}
             onClick={() => setActive(filter)}
           >

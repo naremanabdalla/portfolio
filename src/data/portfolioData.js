@@ -23,14 +23,14 @@ export const skillCategories = [
     id: "frontend",
     icon: "⚛",
     title: "Core Frontend",
-    variant: "purple",
+    variant: "blue",
     skills: ["React.js", "Vue.js", "Next.js", "TypeScript", "JavaScript ES6+", "HTML5", "CSS3"],
   },
   {
     id: "frontend",
     icon: "🎨",
     title: "State & Styling",
-    variant: "teal",
+    variant: "pink",
     skills: ["Redux Toolkit", "RTK Query", "Vuex", "Context API", "Tailwind CSS", "Material UI", "Sass/SCSS", "Bootstrap"],
   },
   {
@@ -51,14 +51,14 @@ export const skillCategories = [
     id: "tools",
     icon: "🔧",
     title: "Dev Tools",
-    variant: "amber",
+    variant: "blue",
     skills: ["Git & GitHub", "Docker", "Vite / Webpack", "Figma", "Cursor AI", "Chart.js"],
   },
   {
     id: "tools",
     icon: "🧪",
     title: "Testing & Agile",
-    variant: "amber",
+    variant: "gold",
     skills: ["Jest", "React Testing Library", "Cypress", "Scrum", "Agile"],
   },
 ];
